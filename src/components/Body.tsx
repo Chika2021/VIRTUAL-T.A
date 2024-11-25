@@ -190,7 +190,7 @@ function Body() {
               </div>
             </form>
           </div>
-          <div className="md:h-full bg-[#000842] rounded-xl lg:p-12 p-8">
+          <div className="md:h-full bg-blue-600 rounded-xl lg:p-12 p-8">
             <img
               src="https://readymadeui.com/signin-image.webp"
               className="w-full h-full object-contain"
