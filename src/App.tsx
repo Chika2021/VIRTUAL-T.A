@@ -4,11 +4,23 @@ import './App.css';
 import Header from './components/Header';
 import Landingpage from './Landingpage';
 import Body from './components/Body';
+import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
+import About from './pages/About';
+import Registration from './pages/Registration';
 
 function App() {
   return (
     <div className="App">
-        <Landingpage />
+      <Router>
+      <Routes>
+        <Route path='/'  element = {<Landingpage />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/register' element={<Registration />} />
+
+      </Routes>
+      </Router>
+
+        
      
     </div>
   );

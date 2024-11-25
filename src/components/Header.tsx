@@ -1,4 +1,6 @@
+
 import React from 'react'
+import { Link, Links } from 'react-router-dom'
 
 const  Header:React.FC = () => {
   return (
@@ -46,20 +48,15 @@ const  Header:React.FC = () => {
               </a>
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
-              <a
-                href="javascript:void(0)"
-                className="hover:text-blue-600 text-blue-600 block font-semibold transition-all"
-              >
-                Home
-              </a>
+              <Link to ='/'>Home</Link>
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
-              <a
-                href="javascript:void(0)"
-                className="hover:text-blue-600 block font-semibold transition-all"
-              >
-                Team
-              </a>
+              
+                <Link to = '/about'>About</Link>
+               
+              
+              
+              
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
