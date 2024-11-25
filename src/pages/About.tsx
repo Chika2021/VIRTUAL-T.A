@@ -2,11 +2,13 @@ import React from 'react'
 import Header from '../components/Header'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import CTOSection from '../components/CTOSection'
 
 function About() {
     return (
         <div>
             <Header />
+            <CTOSection />
             <div className="font-[sans-serif] my-4">
                 <div className="max-w-5xl max-lg:max-w-2xl mx-auto">
                     <div className="max-w-2xl mx-auto text-center">
