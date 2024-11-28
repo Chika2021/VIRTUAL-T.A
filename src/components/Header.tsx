@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Link, Links } from 'react-router-dom'
+import logo from '../assets/novalogo.png'
 
 const  Header:React.FC = () => {
   return (
@@ -9,9 +10,10 @@ const  Header:React.FC = () => {
       <div className="flex flex-wrap items-center gap-4">
         <a href="javascript:void(0)">
           <img
-            src="https://readymadeui.com/readymadeui.svg"
+            src={logo}
             alt="logo"
             className="w-36"
+            style={{width:'150px'}}
           />
         </a>
         <div
