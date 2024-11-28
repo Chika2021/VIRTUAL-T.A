@@ -8,6 +8,7 @@ import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Registration from './pages/Registration';
 import Dashboard from './pages/Dashboard';
+import Guest from './pages/Guest';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/register' element={<Registration />} />
         <Route path='/dashboard' element ={<Dashboard />} />
+        <Route path='/guest'  element = {<Guest />} />
 
       </Routes>
       </Router>

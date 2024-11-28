@@ -61,12 +61,7 @@ const  Header:React.FC = () => {
               
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
-              <a
-                href="javascript:void(0)"
-                className="hover:text-blue-600 block font-semibold transition-all"
-              >
-                Feature
-              </a>
+             <Link to={'/guest'}>Guest</Link>
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a

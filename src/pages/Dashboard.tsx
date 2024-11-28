@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/novalogo.png'
 
 function Dashboard() {
   return (
@@ -12,11 +13,12 @@ function Dashboard() {
       >
         <div className="pt-8 pb-2 px-6 sticky top-0 bg-white min-h-[80px] z-[100]">
           <a href="javascript:void(0)" className="outline-none">
-            <img
-              src="https://readymadeui.com/readymadeui.svg"
-              alt="logo"
-              className="w-[170px]"
-            />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-36"
+            style={{width:'150px'}}
+          />
           </a>
         </div>
         <div className="py-6 px-6">
